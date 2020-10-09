@@ -68,8 +68,25 @@ footer  a{
     
 }
 
-
 #icons{
     display: flex;
     justify-content: center;
+}
+#main{
+    
+    margin-top: 7em;
+    margin-left: 3em;
+    margin-right: 3em;
+    display: grid;
+    grid-auto-columns: repeat(7,1fr);
+    grid-template-rows: repeat(7,1fr);
+} 
+#me_img{
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+#about_me{
+    grid-column: 3/6;
+    grid-row: 1/3;
+    
 }
