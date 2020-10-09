@@ -1,0 +1,23 @@
+body{
+    background-color: darkcyan;
+
+}
+#menu_wraper{
+    position: sticky;
+    background-color: darkgray;
+    
+}
+#menu{
+    
+    text-decoration: none;
+    list-style: none;
+    margin-top: none;
+    
+    float: right;
+    
+    
+}
+#menu >li{
+    display: inline;
+    
+}
