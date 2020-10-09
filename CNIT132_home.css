@@ -1,23 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Libre+Baskerville:wght@700&display=swap');
+
 body{
-    background-color: darkcyan;
+    background-color: #1B1B1B;
+    margin: 0px;
+    color: #E4E4E4 ;
+    font-family: 'Roboto', sans-serif;
 
 }
 #menu_wraper{
-    position: sticky;
-    background-color: darkgray;
+    position: fixed;
+    background-color: #E4E4E4;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    margin: 0%;
+    display: block;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    color: #1B1B1B ;
+    
+    font-family: 'Libre Baskerville', serif;
+    
+    border-radius: 3px;
     
 }
 #menu{
     
-    text-decoration: none;
     list-style: none;
-    margin-top: none;
-    
+    overflow: hidden;
     float: right;
+    margin: 1em;
     
     
 }
 #menu >li{
-    display: inline;
+    display: inline-block;
+    margin: 2px;
     
+   
+
+    
+    
+}
+#menu a{
+   text-decoration: none; 
+   color: inherit;
+   
+}  
+
+    
+
+#corner{
+    margin: 1em;
+}
+footer{
+    display: grid;
+    justify-content: center;
+    background-color:  #363434 ;
+    color: ivory;
+    
+}
+footer  a{
+    margin: 10px;
+
+    
+    
+}
+
+
+#icons{
+    display: flex;
+    justify-content: center;
 }
