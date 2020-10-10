@@ -1,56 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Libre+Baskerville:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
 body{
     background-color: #1B1B1B;
     margin: 0px;
     color: #E4E4E4 ;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Indie Flower', cursive;
 
 }
 #menu_wraper{
     position: fixed;
-    background-color: #E4E4E4;
+    background-color: inherit;
     top: 0;
     width: 100%;
     overflow: hidden;
     margin: 0%;
     display: block;
-    font-size: 1.5em;
+    font-size: 2em;
     display: flex;
     justify-content: space-between;
-    color: #1B1B1B ;
-    
-    font-family: 'Libre Baskerville', serif;
-    
+    color: #F1684E;
+    font-family: 'Amatic SC', cursive;
     border-radius: 3px;
+    height: 3.5em;
     
 }
 #menu{
-    
     list-style: none;
     overflow: hidden;
     float: right;
     margin: 1em;
-    
-    
 }
 #menu >li{
     display: inline-block;
-    margin: 2px;
-    
-   
-
-    
-    
+    margin: 0px 1em 1em 0px;
+      
 }
 #menu a{
    text-decoration: none; 
    color: inherit;
-   
 }  
-
-    
-
 #corner{
     margin: 1em;
 }
@@ -59,21 +49,15 @@ footer{
     justify-content: center;
     background-color:  #363434 ;
     color: ivory;
-    
 }
 footer  a{
-    margin: 10px;
-
-    
-    
+    margin: 10px;   
 }
-
 #icons{
     display: flex;
     justify-content: center;
 }
-#main{
-    
+#main{   
     margin-top: 7em;
     margin-left: 3em;
     margin-right: 3em;
@@ -82,6 +66,7 @@ footer  a{
     grid-auto-rows: repeat(9,1fr);
     grid-gap: 2em;
     font-size: 20px;
+    text-decoration: none;
 } 
 #main>div{
     padding: 1em;
@@ -91,11 +76,8 @@ footer  a{
    grid-column-end: 5;
    grid-row-start: 1;
    grid-row-end: 5;
-  
    justify-self: center;
    margin-bottom: 5em;
-   
-   
    
 }
 #me_img>img{
@@ -107,9 +89,8 @@ footer  a{
    grid-column-end: 8;
    grid-row-start: 1;
    grid-row-end: 5;
-   margin-bottom: 5em;
+   margin-bottom: 4em;
    
-  
 }
 #journey_start{
     
@@ -117,28 +98,33 @@ footer  a{
     grid-column-end: 5;
     grid-row-start: 5;
     grid-row-end: 7;
-    background-color:  #363434 ;
+    background-color:  #368cbf ;
     border-radius: 10px;
 }
 #favorite{
-    border: solid wheat 3px;
-    grid-column-start: 4;
+    
+    grid-column-start: 3;
     grid-column-end: 8;
     grid-row-start: 7;
     grid-row-end: 9;
-    background-color:  #363434 ;
+    background-color:  #7ebc59;
     border-radius: 10px;
 }
 #professor_web{
-    border: solid wheat 3px;
+    
     grid-column-start: 1;
     grid-column-end: 8;
     grid-row-start: 9;
     grid-row-end: 10;
-    background-color:  #363434 ;
+    background-color:  #FBE8A6;
     border-radius: 10px;
+    color: #368cbf ;
+}
+#professor_web a{
+    text-decoration: none;
 }
 
 #greeting{
-    font-size: 2em;
+    font-size: 3em;
+    margin-bottom: none;
 }
