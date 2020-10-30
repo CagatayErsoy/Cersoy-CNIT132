@@ -34,6 +34,12 @@ h3{
     text-align: right;
     color: red;
 }
+a{
+    color: red;
+}
+a:visited{
+    color: white;
+}
 table{
     background-color: cyan;
     padding: 3px 20px 3px;
