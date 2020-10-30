@@ -34,3 +34,35 @@ h3{
     text-align: right;
     color: red;
 }
+table{
+    background-color: cyan;
+    padding: 3px 20px 3px;
+    margin: 5px;
+    animation-name: backgroundcolor_chance;
+    animation-duration: 7s ;
+    animation-fill-mode: forwards;
+    
+}
+tr{
+    line-height: 38px;
+    
+}
+td{
+    text-align: center;
+    animation: fontcolor_chance 7s  ;
+    animation-fill-mode: forwards;
+    
+    
+
+}
+.bold_row{
+    font-weight: bold;
+}
+@keyframes backgroundcolor_chance{
+    from{ background-color: cyan;}
+    to{background-color: green;}
+}
+@keyframes fontcolor_chance{
+    from{ color: black;}
+    to{color: white;}
+}
