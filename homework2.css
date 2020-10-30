@@ -1,0 +1,36 @@
+body{
+    background-color: yellow;
+}
+a:link{
+   color: red; 
+}
+h1{
+    color: red;
+    text-align: center;
+    width: 100%;
+    margin-top: 0;
+}
+p::first-letter{
+    font-size: 48px;
+    font-weight: bolder;
+    font-style: italic;
+}
+h2{
+    text-align: right;
+    color: blue;
+    font-weight: bolder;
+    font-style: italic;
+    
+}
+#bigger_one{
+    font-size: 48px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.red_text{
+    color: red;
+}   
+h3{
+    text-align: right;
+    color: red;
+}
