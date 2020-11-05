@@ -24,10 +24,14 @@ h3{
 img{
     margin-right:20px;
     float: left;
+    width:"150px";
+    height:"140";
 }
 #footer{
-    clear:both; background-color: #990000;
-    text-align:center; font-size:65%;
+    clear:both; 
+    background-color: #990000;
+    text-align:center;
+     font-size:65%;
     font-weight:bold;
     color:white;
 }
