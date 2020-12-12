@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+body{
+    background-color: #1B1B1B;
+    margin: 0px;
+    color: #E4E4E4 ;
+    font-family: 'Indie Flower', cursive;
+    display: grid;
+    grid-template-columns: 20% auto;
+    grid-template-rows: 8% auto 6%;
+    grid-template-areas: 
+    "header header"
+    "nav main"
+    "footer footer";
+
+   
+
+}
+/* --------------------Header part----------------------------*/
+header{
+    grid-area: header;
+    text-align: center;
+    font-size: 2.5em;
+    color: #F1684E;
+    top: 0;
+    position: fixed;
+    display: block;
+   
+    width: 100%;
+    overflow: hidden;
+    background-color: inherit;
+    z-index: 1;
+    padding: 5px;
+   
+}
+/* --------------------Navigation bar part----------------------------*/
+nav{
+    grid-area: nav;
+    font-size: 2em;
+    
+    position: fixed;
+    
+    display:inline-block;
+    height: 100%;
+}
+#menu{
+    list-style: none;
+    overflow: hidden;
+    float: left;
+    margin-top: 2em; 
+    
+}
+#menu >li{   
+    margin: 1em 10px auto 3px;
+    color: #F1684E;
+      
+}
+#menu a{
+   text-decoration: none; 
+   color: inherit;
+}  
+/*----------------------Main part bar part------------------*/
+
+  
+
+#main{   
+    grid-area:main;
+    display: grid;
+    grid-auto-columns: repeat(7,1fr);
+    grid-auto-rows: repeat(10,1fr);
+    grid-gap: 1em;
+    font-size: 20px;
+    text-decoration: none;
+   
+} 
+#main>div{
+    padding: 1em;
+    
+}
+#me_img{
+   grid-column-start: 1;
+   grid-column-end: 2;
+   grid-row-start: 1;
+   grid-row-end: 5;
+   
+  
+   
+   
+}
+#me_img>img{
+    margin: 10px;
+    border-radius: 125px;
+}
+#about_me{
+    grid-column-start: 2;
+   grid-column-end: 8;
+   grid-row-start: 1;
+   grid-row-end: 5;
+   margin-bottom: 4em;
+   
+}
+#journey_start{
+    
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    background-color:  #368cbf ;
+    border-radius: 10px;
+}
+#favorite{
+    
+    grid-column-start: 3;
+    grid-column-end: 8;
+    grid-row-start: 7;
+    grid-row-end: 9;
+    background-color:  #7ebc59;
+    border-radius: 10px;
+}
+#professor_web{
+    
+    grid-column-start: 1;
+    grid-column-end: 8;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    background-color:  #FBE8A6;
+    border-radius: 10px;
+    color: #368cbf ;
+}
+#professor_web a{
+    text-decoration: none;
+}
+
+#greeting{
+    font-size: 3em;
+    margin-bottom: none;
+}
+#part2{
+    grid-column-start: 1;
+    grid-column-end: 8;
+    grid-row-start: 10;
+    grid-row-end: 11;
+}
+
+/*----------------------Footer part bar part------------------*/
+
+footer{
+    grid-area:footer;
+    display: grid;
+    justify-content: center;
+    background-color:  #363434 ;
+    color: ivory;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0;
+    
+    z-index: 1;
+    
+}
+
+footer  a{
+    margin: 10px;   
+}
+#icons{
+    display: flex;
+    justify-content: center;
+}
