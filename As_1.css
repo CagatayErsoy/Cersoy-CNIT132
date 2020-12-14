@@ -1,0 +1,42 @@
+img{
+    border-radius: 150px;
+    border: solid 2px black;
+    text-align: center;
+}
+#image{
+    
+    text-align: center;
+
+    
+}
+#textpart{
+    color: rgb(177, 157, 131);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    margin: 1em 16em 1em 16em;
+    background-color: rgb(121, 3, 58);
+    border: rgb(5, 5, 15) solid 4px;
+    border-radius: 10px;
+    padding: 2em;
+}
+#lists{
+    color: rgb(137, 179, 113);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    margin: 1em 16em 1em 16em;
+    background-color: rgb(121, 3, 58);
+    border: rgb(5, 5, 15) solid 4px;
+    border-radius: 10px;
+    padding: 2em;
+    
+
+    
+}
+li>a{
+    font-size: 1em;
+    color: rgb(177, 157, 131);
+}
+footer>a{
+    text-align: center;
+    font-size: 1em;
+}

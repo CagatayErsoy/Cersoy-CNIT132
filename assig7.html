@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Assignment 7</title>
+<meta charset="utf-8">
+<meta name="description" content="working with forms from float CSS to grid">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+form {
+  padding: 1em;
+  background: #f9f9f9;
+  border: 1px solid black;
+  margin-top: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+form input {
+  margin-bottom: 1rem;
+  background: white;
+  border: 1px solid #9c9c9c;
+  
+}
+label {
+  text-align: right;
+  display: block;
+  padding: 0.5em 1.5em 0.5em 0;
+}
+
+.myinput {
+  width: 100%;
+  padding: 0.7em;
+  margin-bottom: 0.5rem;
+}
+input:focus {
+  background-color: gold;
+}
+form div { text-align:center; }
+input[type="submit"], input[type="reset"] {
+  background: lightgray;
+  padding: 0.7em;
+  border: 0;
+}
+h1 { text-align: center; font-style: italic; color: gold; }
+.data{
+  width: 100%;
+}
+#reward{
+  margin-bottom: 10px;
+}
+#reward:focus{
+  background-color: gold;
+}
+</style>
+</head>
+<body>
+<h1>Assignment 7 - working with forms</h1>
+<!-- Homework part-->
+<form class="form1" action="#" method="post">
+            <label for="fname">First Name</label>
+            <input type="text" name="first_name" id="fname" maxlength="15" class="data" required>
+            <label for="lname">Last Name</label>
+            <input type="text" name="last_name" id="lname" maxlength="25" class="data">
+            <label for="age">Age</label>
+            <input type="number" name="your_age" id="age" min="18" max="65" class="data">
+            <label for="email">Email</label> 
+            <input type="email" name="e-mail" id="email" required class="data">
+            <label for="date">Date of your membership</label>
+            <input type="date" name="membership_date" id="date" min="2020-12-31" class="data">
+            <label for="reward">Choose your Reward</label><select name="rewards" id="reward" class="data">
+              <option > Two year Member Magazine subscription</option>
+              <option > 2 ticket to Annual Seminar</option>
+              <option >Voucher $100 food during seminar</option>
+              <option >1 day hotel stay for Seminar</option>
+            </select>
+            
+             
+
+            <div><input type="submit" value="Submit"> &nbsp; <input type="reset" value="Clear"></div>
+        </form>
+</body>
+</html>
